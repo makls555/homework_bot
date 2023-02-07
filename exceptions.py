@@ -10,12 +10,13 @@ class ListKeyError(Exception):
     """Неверный ключ словаря."""
 
 
-class NotaListError(Exception):
+class NotListError(Exception):
     """Не является списком."""
 
 
 class SendMessageError(Exception):
     """Ошибка при отправке сообщения."""
+
 
 class JsonError(Exception):
     """Исключение для ошибок при соединении с енд-поинт"""
